@@ -83,7 +83,8 @@ body {
 
 .footer{
   border: 1px black solid;
-  width: 15%;
+  min-width: 15%;
+  max-width: 23%;
   margin-bottom: 15px;
   padding: 0 10px;
   display: flex;
