@@ -38,11 +38,13 @@ body {
   width: 660px;
   height: 660px;
   margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu {
   border-radius: 22px;
-  min-width: 20%;
+  min-width: 30%;
   height: 60px;
   line-height: 50px;
   margin-bottom: auto;
@@ -52,8 +54,9 @@ body {
   align-items: center;
 }
 
-#grid-size {
-  width: 1.8em;
+#grid-size{
+  text-align: center;
+  width: 3em;
   height: 1.8em;
   max-height: max-content;
   text-align: center;
@@ -61,7 +64,7 @@ body {
   border-radius: 5px;
 }
 
-#change-state{
+.button{
   background-color: rgb(0, 0, 0, 0);
   border: 2px solid;
   background-color: #444cf7;
@@ -73,8 +76,12 @@ body {
   font-size: larger;
 }
 
-#change-state:active{
+.button:active{
   position:relative;
 	top:1px;
   right:1px;
+}
+
+.black-filled{
+  background-color: #000;
 }
