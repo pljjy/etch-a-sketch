@@ -31,6 +31,7 @@ inputLength.addEventListener("input", () => {
   );
 
   changeMode(state, true)
+  changeBackground(parseInt(inputLength.value))
 });
 
 btn.addEventListener("click", () => {

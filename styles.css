@@ -12,8 +12,7 @@ body {
     #444cf7,
     #444cf7 6px,
     #e5e5f7 6px,
-    #e5e5f7 30px
-  );
+    #e5e5f7 30px);
 }
 
 .container {
@@ -80,6 +79,45 @@ body {
   position:relative;
 	top:1px;
   right:1px;
+}
+
+.footer{
+  border: 1px black solid;
+  width: 15%;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+img{
+  width: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform .7s ease-in-out;
+}
+
+img:hover{
+  transform: rotate(360deg);
+}
+
+.img-link{
+  height: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited{
+  color: blue;
 }
 
 .black-filled{
