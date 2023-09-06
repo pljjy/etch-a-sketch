@@ -24,7 +24,6 @@ body {
 
   display: flex;
   flex-flow: column wrap;
-  /* justify-content: space-around; */
   gap: 30px;
   align-items: center;
 }
@@ -84,7 +83,7 @@ body {
 .footer{
   border: 1px black solid;
   min-width: 15%;
-  max-width: 23%;
+  max-width: 25%;
   margin-bottom: 15px;
   padding: 0 10px;
   display: flex;
